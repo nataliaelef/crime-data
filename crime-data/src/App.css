@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+button, input {
+  display: inline-block;
+  margin-left: 20px;
+}
