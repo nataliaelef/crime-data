@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Button = (props) => {
+  const {handleClick, type} = props;
   return (
-    <button type='submit'>Submit</button>
+    <button onClick={handleClick} type={type}>Submit</button>
   )
 }
 
