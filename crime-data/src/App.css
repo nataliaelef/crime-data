@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 button, input {
   display: inline-block;
   margin-left: 20px;
 }
+
+/* canvas {
+  width: 1000px;
+  height: 500px;
+} */
