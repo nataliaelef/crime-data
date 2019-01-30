@@ -67,7 +67,9 @@ class App extends Component {
         <h1>Crimewatch!</h1>
         <Input handleChange={this.handleChange} type="date" name="date" />
         {buttons}
-        <Doughnut data={crimeChart} />
+        <div className="pieChart">
+          <Doughnut data={crimeChart} style="color:black" />
+        </div>
       </div>
     );
   }
@@ -134,6 +136,7 @@ class App extends Component {
     );
     const chart = {
       labels: [...categories[0]],
+      backgroundColor: 'rgba(255, 255, 255, 0.7)',
       datasets: [
         {
           data: [...categories[1]],

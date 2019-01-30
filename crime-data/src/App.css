@@ -2,7 +2,8 @@
   text-align: center;
   height: 100vh;
 }
-button, input {
+button,
+input {
   display: inline-block;
   margin-left: 20px;
 }
@@ -11,3 +12,22 @@ button, input {
   width: 1000px;
   height: 500px;
 } */
+
+body {
+  background: url('./rawpixel-1120034-unsplash.jpg') no-repeat center center
+    fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pieChart {
+  width: 800px !important;
+  height: 800px !important;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
